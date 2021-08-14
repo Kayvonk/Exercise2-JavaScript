@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>EX2</title>
+</head>
+
+<body>
+    <h1 class="heading"> The JavaScript Lottery</h1>
+    <h2 class="sub-heading"> Click the button to draw a number.</h2>
+    <div>
+        <input id="startBtn" type="button" value="Let's Play!">
+    </div>
+    <h3 class="result-section">Your Number: <span id="result"> 0 </span></h3>
+    <div><b>*Any number in the 1 to 1000 range wins!</b></div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-text-col">
+                <p class="modal-header">This site says...</p>
+                <span id="modal-text"></span>
+            </div>
+            <input id="modal-confirm" type="button" value="OK">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
